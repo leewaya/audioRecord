@@ -16,7 +16,7 @@ if ('serviceWorker' in navigator) {
 }
 
 // 设置websocket服务器地址
-const wsUrl = 'ws://localhost:8000/webrtc';
+const wsUrl = 'ws://localhost:8800/webrtc';
 const ws = new WebSocket(wsUrl);
 ws.binaryType = "arraybuffer";
 
