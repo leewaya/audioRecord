@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  app:
+    build: ./app
+    command: python server.py
+    volumes:
+     - .:/app
+    ports:
+      - "8800:8800"
+    
+  
