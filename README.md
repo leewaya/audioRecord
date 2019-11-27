@@ -14,5 +14,8 @@
 - 另一个浏览器打开index.html
 - 开始录音，停止自动发送
 
+# 通过docker compose 直接运行
+  docker-compose up -d
+
 # 效果图
 ![](1.png)
